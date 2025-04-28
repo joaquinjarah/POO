@@ -1,0 +1,5 @@
+publicador Streamer_1 Notificaciones_1 
+suscriptor Seguidor Seguidor_1 Notificaciones_1 seguidor_1.csv
+suscriptor Seguidor Seguidor_2 Notificaciones_1 seguidor_2.csv 
+publicador GPS_1 Posiciones_1 
+suscriptor Registrador Registrador_1 Posiciones_1 ruta_1.csv
