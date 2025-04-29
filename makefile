@@ -25,6 +25,7 @@ default: classes
 
 classes:
 	mkdir -p $(BIN_DIR)
+	mkdir -p $(OUT_DIR)
 	$(JC) $(JFLAGS) -d $(BIN_DIR) $(CLASSES)
 
 run:
