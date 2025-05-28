@@ -14,6 +14,13 @@ public class Program {
             System.out.println("Usage: make run");
             System.exit(-1);
         }
+
+
+
+        // Hola estuve aquí
+
+
+
         Program stage = new Program();
         stage.setupSimulator();
         stage.runSimulation();
@@ -45,7 +52,7 @@ public class Program {
                 break;
             }
             line = message.split(" ");
-            if (line.length != 2) {
+            if (line.length <= 2) { 
                 System.out.println("Error: Invalid message format");
                 continue;
             }
